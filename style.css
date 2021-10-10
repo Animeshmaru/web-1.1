@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size:20px;
+    text-align: center;
+  }
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(97, 233, 233);
+  }
+  .logo {
+    width: 50px;
+    height: 45px;
+    margin-right: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .lab{
+      display: flex;
+      justify-content: center;
+  }
+  .title{
+    margin: 1rem;
+  }
+  .ques, .ans{
+      margin: 2rem;
+      /* margin-left: 4rem; */
+      padding: 0 3rem;
+  }
+  .ans{
+      margin-top: 2rem;
+  }
+
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.box h3{
+  margin-top: 3rem;
+}
+.box p{
+  margin-top: 1rem;
+  width: 70%;
+}
+.box img{
+  margin-top: 3rem;
+  height: 100%;
+  /* width: 100%; */
+}
+.prop{
+  margin: 1rem 5rem; 
+  text-align: start;
+  /* width: 70%; */
+  padding: 2rem;
+}
+.prop h3{
+  text-align: start;
+}
+.prop p{
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+.container{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  border-radius: 5px;
+  background-color: aqua;
+  height :400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  height :300px;
+  width: 300px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cont1{
+  background-color: greenyellow;
+  height :50px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+.cont2{
+  margin: 1rem;
+  background-color: greenyellow;
+  height :50px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer{
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+
+}
+.foot{
+  padding: 2rem;
+}
